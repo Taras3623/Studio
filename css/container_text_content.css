@@ -1,0 +1,134 @@
+.container_text_content {
+	margin-top: 10%;
+	background-color:#f6f6f6 ;
+	width: 100%;
+	
+	display: grid;
+	gap: 10%;
+	grid-template-columns: 42% 50%;
+	
+}
+
+.container_text_content h2{
+
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.container_text_content_left {
+	text-align: left;
+	margin-left: 182px;
+}
+.container_text_content_left span{
+	line-height: 1.78;
+	
+}
+
+.container_text_content h1{
+	
+	display: inline-block;
+	margin-bottom: 8%;
+	
+	
+	
+	
+}
+
+.container_text_content_right {
+	margin-top: 6%;
+	grid-template-columns: 50% 50%;
+}
+.container_text_content_right_list  {
+	font-size: 18px;
+	color: black;
+	line-height: 1.5;
+	padding-left: 40px;
+	
+	
+	
+	
+}
+.container_text_content_right_list_two {
+	
+	list-style-position: calc();
+	word-break: break-all;
+	
+	
+	
+}
+.container_text_content_right_list li  {
+	
+	padding-left: 30px;
+
+	
+	
+	
+}
+.container_text_content_right_list_two li  {
+	
+	padding-left: 30px;
+	
+	
+	
+}
+.container_text_content_right_list li:first-child {
+
+	list-style: url(/img/icon/Container_text/Camera\ icon.png);
+	
+	
+	
+}
+.container_text_content_right_list li:last-child {
+
+	list-style: url(/img/icon/Container_text/Eyes\ icon.png);
+	
+	
+}
+
+.container_text_content_right_list_two  {
+	line-height: 1.5;
+	font-size: 18px;
+	color: black;
+	
+}
+.container_text_content_right_list_two li:nth-child(1) {
+
+	list-style: url(/img/icon/Container_text/Mirror\ icon.png);
+	
+	
+}
+.container_text_content_right_list_two li:nth-child(4) {
+
+	list-style: url(/img/icon/Container_text/Studio\ icon.png);
+	
+	
+}
+.container_text_content_right_list_two li:nth-child(7) {
+
+	list-style: url(/img/icon/Container_text/Tshirt\ icon.png);
+	
+	
+}
+.container_text_content_right_box{
+	display: grid;
+	grid-template-columns: 50%  50%;
+	gap: 5%;
+	padding-right: 100px;
+}
+.container_text_content_block{
+	margin-left: 295px;
+	background-color: #222;
+	text-align: left;
+	max-width: 1080px;
+	line-height: 1.78;
+	padding: 55px 82px 61px 79px;
+color: white;
+
+}
+.container_text_content_block span{
+
+color: white;
+
+}
+.container_text_content_two{
+	background-color: #f6f6f6;
+}

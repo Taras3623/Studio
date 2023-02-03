@@ -1,0 +1,137 @@
+.container_photo {
+display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+
+border: 1px coral solid;
+width: 100%;
+
+}
+.container_photo_title {
+	display: inline-block;
+	
+}
+
+.container_photo_menu {
+width: 70%;
+
+border: 1px coral solid;
+
+
+
+}
+.container_photo_menu_list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 3%;
+	flex-wrap: nowrap;
+	
+	
+
+}
+.container_photo_menu_list li{
+	
+	font-size: 18px;
+	color: #ababab;
+	
+}
+@media(min-width:600px) and (max-width:1600px){
+	.container_photo_menu_list li{
+	
+		font-size: 12px;
+		color: #ababab;
+		
+	}
+	}
+.container_photo_menu_list li:hover{
+border-bottom: #ff3c2d 3px solid;
+border-radius: 3px;
+padding-bottom: 10px;
+cursor: pointer;
+}
+
+.container_photo_block {
+	display: grid;
+	grid-template-columns: 40% 40% ;
+	
+	margin-top: 30px;
+	
+	gap: 30px;
+	width: 100%;
+	
+  
+}
+.container_photo_block_four{
+columns: 2 50px;
+column-gap: 10px;
+break-inside: avoid;
+
+/* grid-template-columns: 50% 50%; */
+/* grid-template-rows: 38% 38%; */
+margin-left: 180px;
+margin-right: 10px;
+/* grid-gap: 20px; */
+border: red solid 2px;
+
+
+
+}
+
+
+.container_photo_block_four img{
+	width: 100%;
+
+  /* max-height: 385px; */
+}
+.container_photo_block_four img:nth-child(2n+2){
+	padding-top: 10px;
+}
+
+.container_block_arrow_one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 200px;
+	height: 41px;
+	background-color: red;
+	
+	
+}
+.container_block_arrow_two{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 200px;
+	height: 41px;
+	background-color: red;
+	
+	
+}
+.container_block_arrow img {
+	
+	
+	max-width: 30px;
+	height: 16px;
+}
+@media(min-width:375px)  and (max-width:1366px){
+	.container_block_arrow img{
+		max-width: 15px;
+	height: 8px;}
+	.container_block_arrow {
+		height: 21px;
+	}
+	}
+
+.container_photo_block_five_img{
+border: red 1px solid;	
+height: 86%;
+}
+.container_photo_block_five_img img{
+	/* min-width: 100px; */
+width: 100%;
+height: 100%;
+	
+	
+}

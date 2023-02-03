@@ -1,0 +1,46 @@
+
+
+body{
+	
+	display: block;
+	max-width: 1920px;
+	overflow-x: hidden;
+margin: 0 auto;
+}
+
+.wrapper {
+	border: 5px blue solid;
+	/* display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	min-height: 100%;
+	align-items: center; */
+	
+	
+}
+.container{
+	max-width: 1920px;
+	margin: 0px auto;
+	border: 5px violet solid;
+}
+	/* @media (max-width:10px){
+		.container{
+		max-width:1200px;
+		
+		}
+	} */
+	/* @media (max-width:1440px){
+		.container{
+		max-width:1200px;
+		
+		}
+	} */
+	/* @media (max-width:1366px){
+		.container{
+		max-width:1000px;
+		
+		}
+	} */
+
+

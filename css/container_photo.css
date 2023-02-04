@@ -45,6 +45,14 @@ border: 1px coral solid;
 		
 	}
 	}
+	@media(min-width:375px) and (max-width:600px){
+		.container_photo_menu_list li{
+		
+			font-size: 10px;
+			color: #ababab;
+			
+		}
+		}
 .container_photo_menu_list li:hover{
 border-bottom: #ff3c2d 3px solid;
 border-radius: 3px;

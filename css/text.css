@@ -29,6 +29,11 @@ h2{
 	font-size: 30px;
 }	
 }
+@media(min-width:375px) and (max-width:600px){
+	h2{
+		font-size: 20px;
+	}	
+	}
 
 h3{
 	font-size: 22px;
@@ -156,8 +161,4 @@ h3{
 		}
 	}
 	
-	@media(min-width:980px) and (max-width:1366px){
-	.container_map_text_block_title{
-
-	}
-}
+	

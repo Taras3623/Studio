@@ -1,6 +1,7 @@
 
 
 body{
+	padding: 10px;
 	
 	display: block;
 	max-width: 1920px;
@@ -9,7 +10,6 @@ margin: 0 auto;
 }
 
 .wrapper {
-	border: 5px blue solid;
 	/* display: flex;
 	flex-direction: column;
 	overflow: hidden;
@@ -22,7 +22,6 @@ margin: 0 auto;
 .container{
 	max-width: 1920px;
 	margin: 0px auto;
-	border: 5px violet solid;
 }
 	/* @media (max-width:10px){
 		.container{

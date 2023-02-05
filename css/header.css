@@ -1,72 +1,74 @@
 .header {
-	display: flex;
-	justify-content: space-between;
-	height: 100px;
-	max-width: 1920px;
-	border: 1px red solid;
-	margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1920px;
+    border: 1px red solid;
+    margin: auto;
 }
 
-.big_button {
-	border-radius: 4px;
-	padding: 0 22px;
-	background-color: #ff3c2d;
-	font-size: 16px;
-	color: white;
-}
-#header_big_button{
-	width: 120px;
-	height: 35px;
-	margin-top: 32px;
-	margin-left: 80%;
 
-	
-	
+
+#header_big_button {
+    width: 120px;
+    height: 35px;
+    margin-top: 32px;
+    margin-left: 80%;
+    font-size: 14px;
 }
+
 .header_social {
 
-	margin-right: 100px;
-	margin-top: 42px;
-	display: flex;
-flex-wrap: wrap;
-	/* justify-content: flex-end; */
-	gap: 25px;
+    margin-right: 100px;
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    gap: 25px;
 
 }
+
 .header_social_img {
-	display: block;
-	max-width: 16px;
-	max-height: 16px;
+    display: block;
+    max-width: 16px;
+    max-height: 16px;
 }
 
 .header_logo {
-	
-	border: 1px red solid;
-	margin-top:22px;
-	margin-bottom: 24px;
-	margin-left: 80px;
-	
-  
+
+    margin-top: 22px;
+    margin-bottom: 24px;
+    margin-left: 80px;
+
+
+}
+
+@media(min-width:375px) and (max-width:600px) {}
+
+.header_logo {
+    margin-left: 30px;
 }
 
 .header_menu {
-margin-left: 80px;
-margin-top: 41px;
-margin-bottom: 41px;
-line-height: 1.75;
+    margin-left: 80px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    line-height: 1.75;
 
 }
+
 .header_menu_list {
-	list-style: none;
-	display: flex;
-	justify-content:flex-start;
-	font-size: 16px;
-	font-weight: 550;
-	gap:30px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 550;
+    gap: 30px;
 
 
 }
+
 .header_menu_list li:hover {
-cursor: pointer;
-	
+    cursor: pointer;
+
 }

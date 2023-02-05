@@ -1,44 +1,48 @@
-.container_banner{
-	
-	max-width: 1920px;
-	max-height:510px;
-	background-image:url(/img/images/background.jpg);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	
-	border: 1px red solid;
-	margin: auto;
-}
-.container_banner_text{
-	box-sizing: border-box;
-	word-wrap: break-word;
-	line-height: 1.14;
-	display: inline-block;
-	margin-left: 178px;
-	margin-top: 70px;
+.container_banner {
 
+    max-width: 1920px;
+    max-height: 510px;
+    background-image: url(/img/images/background.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 
-}
-@media(min-width:1366px) and (max-width:1700px){
-	.container_banner_text{
-		
-		margin-left: 150px;
-		margin-top: 70px;
-	
-	
-	}
+    border: 1px red solid;
+    margin: auto;
 }
 
+.container_banner_text {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    line-height: 1.14;
+    display: inline-block;
+    margin-left: 178px;
+    margin-top: 70px;
 
 
+}
 
-#container_banner_big_button{
-	width: 215px;
-	height: 45px;
-	font-size: 18px;
-	margin: 30px 0 71px 179px;
+@media(min-width:1366px) and (max-width:1700px) {
+    .container_banner_text {
+
+        margin-left: 150px;
+        margin-top: 70px;
+
+
+    }
 }
 
 
 
 
+#container_banner_big_button {
+    width: 215px;
+    height: 45px;
+    font-size: 18px;
+    margin: 30px 0 71px 179px;
+}
+
+@media(min-width:375px) and (max-width:600px) {
+    #container_banner_big_button {
+        font-size: 20px;
+    }
+}

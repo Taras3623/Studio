@@ -1,45 +1,43 @@
+body {
+    padding: 10px;
 
-
-body{
-	padding: 10px;
-	
-	display: block;
-	max-width: 1920px;
-	overflow-x: hidden;
-margin: 0 auto;
+    display: block;
+    max-width: 1920px;
+    overflow-x: hidden;
+    margin: 0 auto;
 }
 
-.wrapper {
-	/* display: flex;
-	flex-direction: column;
-	overflow: hidden;
 
-	min-height: 100%;
-	align-items: center; */
-	
-	
+
+.container {
+    max-width: 1920px;
+    margin: 0px auto;
 }
-.container{
-	max-width: 1920px;
-	margin: 0px auto;
+
+.big_button {
+    border-radius: 4px;
+    padding: 0 22px;
+    background-color: #ff3c2d;
+    font-size: 18px;
+    color: white;
+
 }
-	/* @media (max-width:10px){
+
+/* @media (max-width:10px){
 		.container{
 		max-width:1200px;
 		
 		}
 	} */
-	/* @media (max-width:1440px){
+/* @media (max-width:1440px){
 		.container{
 		max-width:1200px;
 		
 		}
 	} */
-	/* @media (max-width:1366px){
+/* @media (max-width:1366px){
 		.container{
 		max-width:1000px;
 		
 		}
 	} */
-
-

@@ -30,7 +30,7 @@
     }
 }
 
-@media(min-width:375px) and (max-width:600px) {
+@media(max-width:600px) {
     #container_map_button {
 
         width: 100px;
@@ -57,7 +57,7 @@
 
 }
 
-@media(min-width:375px) and (max-width:600px) {
+@media(max-width:600px) {
     .container_map_text_block {
         left: 5%;
     }

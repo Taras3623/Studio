@@ -38,7 +38,7 @@
 
 }
 
-@media (min-width:375px) and (max-width:700px) {
+@media(max-width:700px) {
     #container_banner_small_text {
         font-size: 10px;
         color: gray;

@@ -18,7 +18,8 @@ function hambHandler(e) {
 }
 
 function renderPopup() {
-    popup.appendChild(menu);
+	popup.appendChild(menu);
+	
 
 
 }

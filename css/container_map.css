@@ -1,58 +1,64 @@
 .container_map {
-	position: relative;
-	border: red 1px solid;
-	max-width: 1920px;
-	height: 560px;
-	margin: auto;
+    position: relative;
+    border: red 1px solid;
+    max-width: 1920px;
+    height: 560px;
+    margin: auto;
+
 }
+
+
+
 
 #container_map_button {
-	display: block;
-	width: 163px;
-	height: 45px;
-	font-size: 18px;
-	margin-left: 200px;
-	margin-top: 30px;
-	margin-right: 10px;
+    display: block;
+    width: 163px;
+    height: 45px;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-right: 10px;
 }
-@media(min-width:600px)  and (max-width:1366px){
-	#container_map_button{
-		
-		width: 120px;
-		height: 35px;
-		margin-left: 165px;
 
-	}
+@media(min-width:600px) and (max-width:1366px) {
+    #container_map_button {
+
+        width: 120px;
+        height: 35px;
+        margin-left: 165px;
+
+    }
 }
-@media(min-width:375px)  and (max-width:600px){
-	#container_map_button{
-		
-		width: 100px;
-		height: 35px;
-		margin-left: 110px;
 
-	}
+@media(min-width:375px) and (max-width:600px) {
+    #container_map_button {
+
+        width: 100px;
+        height: 35px;
+        margin-left: 110px;
+
+    }
 }
 
 .container_map_text_block {
-	/* display: flex;
+    /* display: flex;
 	flex-direction: column;
 	gap: 10%; */
 
-	position: absolute;
-	
-	background-color: #fff;
-	padding-top: 4%;
-	padding-left: 4%;
-	padding-right: 20%;
-	padding-bottom: 4%;
-	left: 10%;
-	top: 30%;
+    position: absolute;
+
+    background-color: #fff;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 20%;
+    padding-bottom: 4%;
+    left: 10%;
+    top: 30%;
 
 }
-@media(min-width:375px)  and (max-width:600px){
-	.container_map_text_block{
-left: 5%;
-	}
-}
 
+@media(min-width:375px) and (max-width:600px) {
+    .container_map_text_block {
+        left: 5%;
+    }
+}

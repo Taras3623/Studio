@@ -105,7 +105,7 @@
     align-items: center;
     padding: 0 20px;
     color: black;
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -147,15 +147,70 @@
         left: -100%;
         width: 100%;
         height: 100%;
-        background-color: orangered;
-        z-index: 100;
+        background-color: #f6f6f6;
+        opacity: 0.9;
         display: flex;
         transition: 0.3s;
     }
 
     .popup.open {
         left: 0;
+
     }
 
+    #map.open {
+        display: none;
+    }
 
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+    }
+
+    .popup .menu li {
+        width: 100%;
+
+    }
+
+    .popup .menu li a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        line-height: 1.75;
+        opacity: 0.9;
+    }
+
+    .popup .menu li a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+
+    }
+
+    .hamb_field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamb_field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamb_field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    body.noscroll {
+        overflow: hidden;
+    }
+
+    #menuli.push .popup {
+        display: none;
+    }
 }

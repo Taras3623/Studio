@@ -41,7 +41,7 @@
     margin: 30px 0 71px 179px;
 }
 
-@media(min-width:375px) and (max-width:600px) {
+@media(max-width:600px) {
     #container_banner_big_button {
         font-size: 20px;
     }

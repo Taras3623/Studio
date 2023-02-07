@@ -191,6 +191,7 @@
 	line-height: 1.78;
 	padding: 55px 82px 61px 79px;
 color: white;
+margin-bottom: 5;
 
 }
 @media(max-width:1200px){
@@ -234,7 +235,7 @@ color: white;
 }
 .container_text_content_two{
 	background-color: #f6f6f6;
-	
+	padding-bottom: 5%;
 }
 @media(max-width:1200px){
 	.container_text_content_two{

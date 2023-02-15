@@ -1,0 +1,48 @@
+.container_about_us{
+	display: flex;
+	padding: 8%;
+	height: 401px;
+	width:100%;
+background-image: url(/img/Photo/about_us/Img.png);
+background-size: cover;
+object-fit: contain;
+/* background-position: 5% 5%; */
+/* background-size: contain; */
+background-repeat: no-repeat;
+
+}
+
+.about_us_text {
+	
+	margin: 0 auto;
+	line-height: 1.5;
+	color: white;
+	width: 96%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#about_us_big_button{
+width: 215px;
+height: 45px;
+font-size: 18px;
+}
+@media(max-width:800px){
+	#about_us_big_button{
+		width: 150px;
+		height: 35px;
+		font-size: 18px;
+		}
+}
+@media(max-width:408px){
+	#about_us_big_button{
+		
+		font-size: 14px;
+		}
+}
+.about_us_text h2{
+	color: white;
+}

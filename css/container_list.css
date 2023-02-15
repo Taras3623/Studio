@@ -97,7 +97,8 @@
 }
 
 .line {
-    position: relative;
+  
+	
 
     bottom: 46px;
     left: 8px;
@@ -241,7 +242,7 @@
 }
 
 .line_right {
-    position: relative;
+   
     bottom: 46px;
     left: 8px;
     border: solid 0.5px rgba(34, 34, 34, 0.2);

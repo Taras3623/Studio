@@ -15,6 +15,7 @@
 
 <head>
 	<title>Document</title>
+	<link rel="stylesheet" href="/css/comments.css">
 	<link rel="stylesheet" href="/css/footer.css">
 	<link rel="stylesheet" href="/css/Our-blog.css">
 	<link rel="stylesheet" href="/css/container_about_us.css">
@@ -42,7 +43,7 @@
 <body>
 	<div class="wrapper">
 		<div class="container">
-			<nav class="navbar">|
+			<nav id="navbar" class="navbar">|
 				<div class="navbar_container">
 					<div class="navbar_wrap">
 						<div class="navbar_logo">
@@ -54,13 +55,13 @@
 
 						<ul class="menu" id="menu">
 
-							<li id="menuli"><a href="#">Individuals</a></li>
-							<li><a href="#list">Companies</a></li>
-							<li><a href="#map">The Studio</a></li>
-							<li><a href="#container_about_us">About Us</a></li>
-							<li><a href="#our-blog">Blog</a></li>
+							<li id="menuli"><a id="li" href="#">Individuals</a></li>
+							<li><a id="li" href="#list">Companies</a></li>
+							<li><a id="li" href="#map">The Studio</a></li>
+							<li><a id="li" href="#container_about_us">About Us</a></li>
+							<li><a id="li" href="#our-blog">Blog</a></li>
 
-							<button class="big_button" id="bigButton">
+							<button  class="big_button" id="bigButton">
 								Book Now
 
 
@@ -235,8 +236,16 @@
 					<img src="/img/Photo/04.png" alt="#">
 					<img src="/img/Photo/03.png" alt="#">
 				</div>
+				<div class="container_arrow_adaptive">
+					<button id="prew-photo" class="container_block_arrow prew">
+						<img id="container_photo_block_arrow" src="/img/icon/container_photo/Arrow copy.png" alt="#">
+					</button>
+					<button id="next-photo" class="container_block_arrow next">
+						<img src="/img/icon/container_photo/Arrow copy 2.png" alt="#">
+					</button>
+				</div>
 			</div>
-		</div>
+		
 
 		<div class="container_text_content">
 
@@ -311,7 +320,7 @@
 			</div>
 			<div class="container_slide">
 
-				<button class="button_prev"><
+				<button class="button_prev">🡄
 					</button>
 						<div class="container_clients_photo">
 
@@ -379,7 +388,7 @@
 							</div>
 
 						</div>
-						<button class="button_next">></button>
+						<button class="button_next">🡆</button>
 			</div>
 			<div class="dots">
 				<div class="dot active"></div>
@@ -404,45 +413,11 @@
 	<div class="our-blog__subtitle"><span>Check our latest news.</span></div>
 
 	<div class="our-blog__arrow">
-		<button class="button" id="prew"><</button>
+		<button class="button" id="prew">🡄</button>
 		<div class="our-blog__row">
-		<div class="our-blog__column">
-		<div class="item-our-blog">
-			<div class="item-our-blog__img"><img src="/img/Photo/Our/Img-1.png" alt="#"></div>
-			<div class="item-our-blog__title">all about headshots inside professional studios</div>
-			<div class="item-our-blog__text">
-				<div class="item-our-blog-text__comments"><span><a href="#">Comments</a></span></div>
-				<div class="item-our-blog-text__date"><span>August, 2022</span></div>
-			</div>
+	
 		</div>
-		
-		</div>
-		
-		<div class="our-blog__column">
-		<div class="item-our-blog">
-			<div class="item-our-blog__img"><img src="/img/Photo/Our/Img-2.png" alt="#"></div>
-			<div class="item-our-blog__title title">How do professionals edit
-				their photos and What photo editing software they use</div>
-			<div class="item-our-blog__text">
-				<div class="item-our-blog-text__comments"><span><a href="#">Comments</a></span></div>
-				<div class="item-our-blog-text__date"><span>August, 2022</span></div>
-			</div>
-		</div>
-		</div>
-		
-		<div class="our-blog__column">
-		<div class="item-our-blog">
-		<div class="item-our-blog__img"><img src="/img/Photo/Our/Img-3.png" alt="#"></div>
-		<div class="item-our-blog__title">best Courses In Photography
-			from home</div>
-		<div class="item-our-blog__text">
-			<div class="item-our-blog-text__comments"><span><a href="#">Comments</a></span></div>
-			<div class="item-our-blog-text__date"><span>August, 2022</span></div>
-		</div>
-		</div>
-		</div>
-		</div>
-		<button class="button" id="next">></button>
+		<button class="button" id="next">🡆</button>
 	</div>
 <button id="big_button__our-blog" class="big_button"><span>See All Posts</span></button>
 </div>
@@ -451,7 +426,7 @@
 	<div class="footer__text">
 		<div class="navbar_logo"><h1>Studio</h1>
 		</div>
-		<div class="footer__column"><button class="footer__title"><span>Links</span></button><a href="">Individuals</a>
+		<div class="footer__column"><div class="footer__title"><span>Links</span></div><a href="">Individuals</a>
 		<a href="">Companies
 		</a>
 		<a href="">The Studio</a>
@@ -480,7 +455,7 @@
 				<p>North Middleton, UK</p></a>
 		</div>
 		<div class="footer__column">
-			<div class="footer__title"><span>Contact</span></div>
+			<div id="contact" class="footer__title"><span>Contact</span></div>
 			<div class="contact-info">
 				<span><a href="tel:(123) 345 3781">(123) 345 3781</a></span>
 				<br><br>
@@ -489,18 +464,44 @@
 		</div>
 		
 	</div>
-	<div class="footer__text-down"><div></div><span>© 2020. All rights reserved.</span><span>Privacy Policy</span></div>
+	<div class="footer__text-down"><span>© 2020. All rights reserved.</span><span>Privacy Policy</span></div>
 
 
 </footer>
+
+
+
 	</div>
 	</div>
+	
+	<div id="comments" class="comments">
+		<div class="comments__body">
+			<a href="#navbar" class="close"><span>×</span></a>
+			<div class="comments__content">
+	
+				
+				<div class="comments__title"><h3>Comments</h3></div>
+				<div class="comments__field"></div>
+				<div class="comments__forms">
+					<label for="comments-name"><h3>Name:</h3></label>
+					<input id="comments-name" class="name-item" type="name" placeholder="Your name">
+					<label for="comments-body"><h3>Comment:</h3></label>
+					<input id="comments-body" class="comments-item" type="text" width="20px" height="50px" placeholder="Comments...">
+					<button type="submit" id="comments-add" class="comments-send">Send</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<script src="/js/burger.js">
 
 	</script>
+	
 	<script src="/js/container_clients_carousel.js"></script>
 	<script src="/js/container_photo_carousel.js"></script>
 	<script src="/js/our-blog-carousel.js"></script>
-</body>
+	<script src="/js/comments.js"></script>
+	
+	</body>
 
 </html>

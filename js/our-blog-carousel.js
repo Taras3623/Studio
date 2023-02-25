@@ -33,7 +33,7 @@
 		<div class="item-our-blog__title">best Courses In Photography
 			from home</div>
 		<div class="item-our-blog__text"> 
-			<div class="item-our-blog-text__comments"><span><a href="#">Comments</a></span></div>
+			<div class="item-our-blog-text__comments"><span><a href="#comments">Comments</a></span></div>
 			<div class="item-our-blog-text__date"><span>August, 2022</span></div>
 		</div>
 	</div>

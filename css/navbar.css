@@ -5,6 +5,7 @@
    margin-right: 50px;
     margin-left: 100px; 
     font-size: 14px;
+
 }
 
 .navbar_social {
@@ -44,7 +45,11 @@
 
 
 .navbar_logo {
+	margin-bottom: 20px;
     margin-left: 30px;
+}
+.navbar_logo h1{
+	font-size: 60px;
 }
 
 /* .header_menu {
@@ -131,7 +136,7 @@ z-index: 5;
 @media(max-width:1227px) {
 	.navbar_social{
 		margin: 0 auto;
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 	
 	#bigButton {
@@ -167,6 +172,7 @@ z-index: 5;
     }
 
     .popup {
+		z-index: 5;
         position: fixed;
         top: 100px;
         left: -100%;
@@ -237,11 +243,12 @@ z-index: 5;
         overflow: hidden;
     }
 
-    #menuli.push .popup {
+    #menuli .push .popup {
         display: none;
     }
+	 .popup .push{
+		display: none;
+	 }
+	 
 }
 
-@media(max-width:1200px){
-
-}

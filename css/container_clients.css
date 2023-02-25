@@ -42,7 +42,6 @@ color: grey;
 border: #ff3c2d 4px solid;
 border-radius: 50%;
 text-align: center;
-padding: auto;
 opacity: 0.5;
 
 }
@@ -51,6 +50,8 @@ opacity: 0.5;
 		width: 40px;
 		height: 40px;
 		margin-bottom: 300px;
+		font-size: 23px;
+		padding-bottom: 30px;
 	}
 }
 @media(max-width:600px){
@@ -62,7 +63,8 @@ opacity: 0.5;
 	}
 }
 .button_prev:hover{
-opacity: 1;
+opacity: 0.8;
+color: white;
 
 }
 
@@ -76,9 +78,9 @@ font-size: 30px;
 background-color: black;
 color: grey;
 border: #ff3c2d 4px solid;
+
 border-radius: 50%;
 text-align: center;
-padding: auto;
 opacity: 0.5;
 }
 @media(min-width:600px) and (max-width:1200px){
@@ -86,6 +88,9 @@ opacity: 0.5;
 		width: 40px;
 		height: 40px;
 		margin-bottom: 300px;
+		font-size: 23px;
+		padding-bottom: 30px;
+
 	}
 }
 @media(max-width:600px){
@@ -97,7 +102,8 @@ opacity: 0.5;
 	}
 }
 .button_next:hover{
-	opacity: 1;
+	opacity: 0.8;
+	color: white;
 	}
 
 .photo_text {
@@ -114,21 +120,7 @@ align-items: center;
 	font-size: 18px;
 	
 }
-/* 
-#sumbol{
-	
-	
-	opacity: 0.1;
-		font-family: ProximaNova;
-		font-size: 220px;
-		font-weight: normal;
-		font-stretch: normal;
-		font-style: normal;
-		line-height: 0.13;
-		letter-spacing: 13.2px;
-		text-align: left;
-		color: #fff;
-} */
+
 .photo_text_subtitle{
 	
 	width: 85%;

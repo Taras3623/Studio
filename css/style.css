@@ -1,8 +1,6 @@
 body {
     padding: 10px;
 
-    display: block;
-    max-width: 1920px;
     overflow-x: hidden;
     margin: 0 auto;
 }

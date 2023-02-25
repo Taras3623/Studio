@@ -110,8 +110,8 @@
 	}
 
 	setInterval(nextSlide, 100000);
-	document.querySelector('.container_block_arrow').addEventListener('click', prevSlide);
-	document.querySelector('.container_block_arrow_two').addEventListener('click', nextSlide);
+	document.querySelector('#prew-photo').addEventListener('click', prevSlide);
+	document.querySelector('#next-photo').addEventListener('click', nextSlide);
 
 	renderSlides();
 

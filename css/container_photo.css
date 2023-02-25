@@ -108,6 +108,8 @@
 	.container_photo_block{
 		display:none;
 	}
+	
+	
 }
 @media(min-width:700px){
 	.container_photo_block_adaptive{
@@ -165,14 +167,7 @@
 
 
 }
-.container_photo_block_two.img {
-	
-	/* width: 801px;
-height: 860px; */
-	
 
-
-}
 
 .container_block_arrow {
 	/* opacity: 0.4; */
@@ -184,6 +179,20 @@ height: 860px; */
     
 
 
+}
+@media(min-width:700px){
+	.container_arrow_adaptive button{
+		
+		display: none;
+	}
+}
+.container_arrow_adaptive{
+	display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+		width: 300px;
+		height: 41px;
 }
 .container_block_arrow:hover {
 	opacity: 1;

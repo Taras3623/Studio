@@ -12,10 +12,10 @@ document.getElementById('comments-add').onclick = function () {
 
 	commentName.value = '';
 	commentBody.value = '';
-
+	
 	comments.push(comment);
 	saveComments();
-	showComments();
+	
 }
 
 function saveComments() {
@@ -23,12 +23,15 @@ function saveComments() {
 }
 
 function showComments() {
-	let commentField = document.getElementById('comments__field');
+	let commentField = document.getElementById('comments-field');
 	let out = '';
 	comments.forEach(function (item) {
 		out += `<p class="comments-send small"><em>${timeConverter(item.time)}</em></p>`;
 	});
+	
 	commentField.innerHTML = out;
+	showComments();
+	
 }
 
 function timeConverter(UNIX_timestamp){
@@ -42,4 +45,7 @@ function timeConverter(UNIX_timestamp){
 	var sec = a.getSeconds();
 	var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
 	return time;
+
+
+	
  }

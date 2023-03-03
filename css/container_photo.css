@@ -41,6 +41,7 @@
 
     font-size: 18px;
     color: #ababab;
+	 padding-bottom: 8px;
 
 
 }
@@ -82,10 +83,16 @@
 }
 
 .container_photo_menu_list li:hover {
-    border-bottom: #ff3c2d 3px solid;
+	
+	transition: .3s ;
+	border-bottom: rgba(255,60,45,);
+    border-bottom: rgba(255,60,45, .8)
+	 2px solid ;
+	 
+	 transform: scale(0px);
 	 color: black;
-    border-radius: 3px;
-    padding-bottom: 10px;
+   
+    padding-bottom: 7px;
     cursor: pointer;
 }
 

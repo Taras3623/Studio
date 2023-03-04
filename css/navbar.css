@@ -25,6 +25,12 @@
     max-width: 16px;
     max-height: 16px;
 }
+.navbar_social_img:hover {
+	
+	max-width: 30px;
+	max-height: 30px;
+	transition: 0.5s;
+}
 
 .navbar_logo {
 
@@ -132,6 +138,9 @@ z-index: 5;
 
 .navbar_wrap .menu>li a:hover {
     opacity: 1;
+	 letter-spacing: 0.1em;
+	 transition: 0.5s;
+	 font-size: 18px;
 }
 
 @media(max-width:1227px) {

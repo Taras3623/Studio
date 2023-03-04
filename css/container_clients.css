@@ -17,6 +17,11 @@
 	
 	
 }
+.photo_text img:hover{
+	transition: 1.8s;
+	transform: rotatey(180deg);
+	
+}
 .photo_text{
 	
 	border-radius: 5px;

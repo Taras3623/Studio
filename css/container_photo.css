@@ -84,15 +84,17 @@
 
 .container_photo_menu_list li:hover {
 	
-	transition: .3s ;
+	transition: 0.5s ;
+	letter-spacing: 0.1em;
+	font-size: 20px;
 	border-bottom: rgba(255,60,45,);
     border-bottom: rgba(255,60,45, .8)
 	 2px solid ;
 	 
-	 transform: scale(0px);
+	 
 	 color: black;
    
-    padding-bottom: 7px;
+   
     cursor: pointer;
 }
 
